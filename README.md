@@ -1,2 +1,2 @@
 "# Give_Surprises" 
-Guest registration management system: A back-end system meant to automatically process a person's registration to an event, taking into account the number of available places, the waiting list, and different possible scenarios of the registration process. Main technical focus: OOP principles, algorithms and File Reader.
+Surprise Sharing management system: focused on deepening the Java Hierarchy design concepts such as Encapsulation, Inheritance, Abstraction, Polymorphism, Upcasting, Interface usage. The project's main purpose was to manage different kind of surprises and share them based on different algorithms.
