@@ -7,7 +7,9 @@ public class RandomBag implements IBag {
     private static Random random;
 
     public RandomBag() {
-        this.sack = new ArrayList<>();
+         if (newSurprise != null) {
+            this.sack.add(newSurprise);
+        }
     }
 
     @Override
