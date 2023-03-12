@@ -10,7 +10,9 @@ public class LIFOBag implements IBag {
 
     @Override
     public void put(ISurprise newSurprise) {
-        this.sack.add(newSurprise);
+         if (newSurprise != null) {
+            this.sack.add(newSurprise);
+        }
     }
 
     @Override
