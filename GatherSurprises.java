@@ -17,7 +17,7 @@ public final class GatherSurprises {
         return GatherSurprises.instance;
     }
 
-    public static ArrayList<ISurprise> gather(int n) {
+    public ArrayList<ISurprise> gather(int n) {
         GatherSurprises.surprises = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             GatherSurprises.surprises.add(gather());
@@ -25,7 +25,7 @@ public final class GatherSurprises {
         return GatherSurprises.surprises;
     }
 
-    public static ISurprise gather() {
+    public ISurprise gather() {
         if (GatherSurprises.random == null) {
             GatherSurprises.random = new Random();
         }
@@ -41,7 +41,7 @@ public final class GatherSurprises {
         }
     }
 
-    public static IBag moveToBag() {
+    public IBag moveToBag() {
         IBag x = FactoryBag.getInstance().makeBag("LIFO");
         int it;
         if (GatherSurprises.surprises != null) {
