@@ -1,6 +1,13 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+import Containers.FactoryBag;
+import Containers.IBag;
+import Surprises.Candies;
+import Surprises.FortuneCookie;
+import Surprises.ISurprise;
+import Surprises.MinionToy;
+
 public final class GatherSurprises {
 
     private static Random random;

@@ -1,8 +1,13 @@
+import Giving.GiveSurpriseAndHug;
+import Giving.GivesSurpriseAndApplause;
+import Giving.GivesSurpriseAndSing;
+
 public class Main {
     public static void main(String[] args) {
 
         GatherSurprises.getInstance().moveToBag();
-        GiveSurpriseAndHug surprise0 = new GiveSurpriseAndHug("Random", 2);
+        GiveSurpriseAndHug surprise0;
+        surprise0 = new GiveSurpriseAndHug("Random", 2);
         surprise0.give();
 
         surprise0.put(GatherSurprises.getInstance().moveToBag());
@@ -27,8 +32,6 @@ public class Main {
         GatherSurprises.getInstance().gather(5);
         surprise2.put(GatherSurprises.getInstance().moveToBag());
         surprise2.giveAll();
-        Test q = new Test("random", 3);
-        q.put(GatherSurprises.getInstance().gather());
 
     }
 

@@ -1,3 +1,7 @@
+package Containers;
+
+import Surprises.ISurprise;
+
 import java.util.ArrayList;
 
 public class FIFOBag implements IBag {

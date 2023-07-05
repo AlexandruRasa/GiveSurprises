@@ -1,3 +1,5 @@
+package Giving;
+
 public class GivesSurpriseAndApplause extends AbstractGivesSurprises {
 
     public GivesSurpriseAndApplause(String bagType, int waitTime) {

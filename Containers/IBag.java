@@ -1,3 +1,7 @@
+package Containers;
+
+import Surprises.ISurprise;
+
 public interface IBag {
 
     void put(ISurprise newSurprise);

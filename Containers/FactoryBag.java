@@ -1,3 +1,5 @@
+package Containers;
+
 public final class FactoryBag implements IBagFactory {
 
     private static FactoryBag instance;

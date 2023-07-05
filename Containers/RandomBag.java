@@ -1,3 +1,7 @@
+package Containers;
+
+import Surprises.ISurprise;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -7,14 +11,14 @@ public class RandomBag implements IBag {
     private static Random random;
 
     public RandomBag() {
-         if (newSurprise != null) {
-            this.sack.add(newSurprise);
-        }
+        this.sack = new ArrayList<>();
     }
 
     @Override
     public void put(ISurprise newSurprise) {
-        this.sack.add(newSurprise);
+        if (newSurprise != null) {
+            this.sack.add(newSurprise);
+        }
     }
 
     @Override
